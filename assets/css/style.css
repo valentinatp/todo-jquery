@@ -5,11 +5,17 @@
 }
 
 body{
-	background-color: #f7b617;
+	background:linear-gradient(#f7b617, whitesmoke);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	width: 100%;
 }
 
 .nav-bar{
-	background-color: black;
+	background-color: #f7b617;
+	width: 100%;
+	margin: 0;
+	border: 3px solid black;
 }
 
 .nav-bar a{
@@ -19,7 +25,7 @@ body{
 }
 
 .nav-bar a:hover{
-	color: #f7b617;
+	color: black;
 }
 
 h1{
@@ -55,7 +61,7 @@ h1{
 }
 
 #tarea{
-	background-color: #f7b617;
+	background-color: transparent;
 	margin-bottom: 10px;
 	border: 3px solid black;
 	border-radius: 6px;
@@ -76,7 +82,7 @@ h4{
 }
 
 .fa-trash-o:hover{
-	color: whitesmoke;
+	color: #f7b617;
 	cursor: pointer;
 }
 
